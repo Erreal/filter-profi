@@ -6,20 +6,27 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Lucida Sans Unicode';
-  src: url("../fonts/Lucida Sans Unicode.eot");
-  src: url("../fonts/Lucida Sans Unicode.eot?#iefix") format("embedded-opentype"), url("../fonts/Lucida Sans Unicode.woff") format("woff"), url("../fonts/Lucida Sans Unicode.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-}
-
 /* line 3, ../Documents/sites/filter-profi/sass/styles.sass */
 header {
   background-color: #000660;
   width: 100%;
+}
+
+/* line 6, ../Documents/sites/filter-profi/sass/styles.sass */
+header .header-heading-text {
   height: 120px;
+  margin: 0;
+  padding: 20px 0;
+}
+
+/* line 10, ../Documents/sites/filter-profi/sass/styles.sass */
+header .header-heading-text h1 {
+  color: #ffffff;
+  font-family: "Lucida Sans Unicode";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=styles.css.map */
