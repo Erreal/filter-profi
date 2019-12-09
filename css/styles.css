@@ -6,20 +6,21 @@
   font-style: normal;
 }
 
-/* line 3, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 11, ../Documents/sites/filter-profi/sass/styles.sass */
 header {
-  background-color: #000660;
+  background-color: #000066;
+  color: #ffffff;
   width: 100%;
 }
 
-/* line 6, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 15, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-heading-text {
   height: 120px;
   margin: 0;
   padding: 20px 0;
 }
 
-/* line 10, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 19, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-heading-text h1 {
   color: #ffffff;
   font-family: "Lucida Sans Unicode";
@@ -27,6 +28,175 @@ header .header-heading-text h1 {
   font-weight: 400;
   line-height: 39px;
   text-transform: uppercase;
+}
+
+/* line 26, ../Documents/sites/filter-profi/sass/styles.sass */
+header nav.header-navigation {
+  margin: 0;
+}
+
+/* line 28, ../Documents/sites/filter-profi/sass/styles.sass */
+header nav.header-navigation ul {
+  font-family: "Lucida Sans Unicode";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 50px 0 0 0;
+  padding: 0;
+}
+
+/* line 35, ../Documents/sites/filter-profi/sass/styles.sass */
+header nav.header-navigation ul li {
+  display: inline-block;
+  margin: 0;
+  padding-left: 13px;
+}
+
+/* line 39, ../Documents/sites/filter-profi/sass/styles.sass */
+header nav.header-navigation ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 44, ../Documents/sites/filter-profi/sass/styles.sass */
+header nav.header-navigation ul li a:hover {
+  color: #dddddd;
+  text-decoration: none;
+}
+
+/* line 47, ../Documents/sites/filter-profi/sass/styles.sass */
+header nav.header-navigation ul .navigation-first-item {
+  padding-left: 0px;
+}
+
+/* line 49, ../Documents/sites/filter-profi/sass/styles.sass */
+header .header-contacts {
+  border-left: #ffffff 1px solid;
+  margin: 15px 0;
+  text-align: right;
+}
+
+/* line 54, ../Documents/sites/filter-profi/sass/styles.sass */
+header .header-contacts .contacts-label p {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans Unicode";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* line 61, ../Documents/sites/filter-profi/sass/styles.sass */
+header .header-contacts .contacts-phone-wrapper .phone-icon {
+  display: inline-block;
+  border-radius: 50%;
+  border: #ffcc00 1px solid;
+  font-family: "Font Awesome";
+  font-size: 22px;
+  color: #ffffff;
+  width: 37px;
+  height: 34px;
+  text-align: center;
+}
+
+/* line 71, ../Documents/sites/filter-profi/sass/styles.sass */
+header .header-contacts .contacts-phone-wrapper .header-phone, header .header-contacts .contacts-phone-wrapper .header-phone:hover {
+  color: #ffffff;
+  font-family: "Lucida Sans Unicode";
+  font-size: 24px;
+  text-decoration: none;
+}
+
+/* line 77, ../Documents/sites/filter-profi/sass/styles.sass */
+header .header-contacts .contacts-callback button {
+  background-color: #ffcc00;
+  border: none;
+  color: #000000;
+  display: inline-block;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 3px 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 3, ../Documents/sites/filter-profi/sass/_madia.sass */
+  header .header-heading-text {
+    font-size: 25px;
+    height: auto;
+  }
+  /* line 6, ../Documents/sites/filter-profi/sass/_madia.sass */
+  header .header-heading-text h1 {
+    font-size: 25px;
+  }
+  /* line 9, ../Documents/sites/filter-profi/sass/_madia.sass */
+  header nav.header-navigation ul {
+    font-size: 12px;
+  }
+  /* line 11, ../Documents/sites/filter-profi/sass/_madia.sass */
+  header nav.header-navigation ul li {
+    padding-left: 7px;
+  }
+  /* line 15, ../Documents/sites/filter-profi/sass/_madia.sass */
+  header .header-contacts .contacts-phone-wrapper .phone-icon {
+    width: 30px;
+    height: 28px;
+    font-size: 18px;
+  }
+  /* line 19, ../Documents/sites/filter-profi/sass/_madia.sass */
+  header .header-contacts .contacts-phone-wrapper .header-phone, header .header-contacts .contacts-phone-wrapper .header-phone:hover {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* line 24, ../Documents/sites/filter-profi/sass/_madia.sass */
+  header .header-heading-text {
+    padding: 5px 0;
+  }
+  /* line 26, ../Documents/sites/filter-profi/sass/_madia.sass */
+  header .header-heading-text h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  /* line 30, ../Documents/sites/filter-profi/sass/_madia.sass */
+  header nav.header-navigation ul {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  /* line 33, ../Documents/sites/filter-profi/sass/_madia.sass */
+  header nav.header-navigation ul li {
+    padding-left: 13px;
+  }
+  /* line 35, ../Documents/sites/filter-profi/sass/_madia.sass */
+  header .header-contacts {
+    border-left: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  /* line 40, ../Documents/sites/filter-profi/sass/_madia.sass */
+  header .header-contacts .contacts-label {
+    display: inline-block;
+  }
+  /* line 42, ../Documents/sites/filter-profi/sass/_madia.sass */
+  header .header-contacts .contacts-phone-wrapper {
+    display: inline-block;
+  }
+  /* line 44, ../Documents/sites/filter-profi/sass/_madia.sass */
+  header .header-contacts .contacts-phone-wrapper .phone-icon {
+    width: 30px;
+    height: 28px;
+    font-size: 18px;
+  }
+  /* line 48, ../Documents/sites/filter-profi/sass/_madia.sass */
+  header .header-contacts .contacts-phone-wrapper .header-phone, header .header-contacts .contacts-phone-wrapper .header-phone:hover {
+    font-size: 20px;
+  }
+  /* line 50, ../Documents/sites/filter-profi/sass/_madia.sass */
+  header .header-contacts .contacts-callback {
+    display: inline-block;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
