@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "fonts.css",
+	"sources": [
+		"../sass/fonts.sass"
+	],
+	"sourcesContent": [
+		"@font-face {\n    font-family: 'Helvetica Neue Cyr Roman';\n    src: url('../fonts/HelveticaNeueCyr-Roman.eot');\n    src: url('../fonts/HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype'),\n    url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff'),\n    url('../fonts/HelveticaNeueCyr-Roman.ttf') format('truetype') {}\n    font-weight: normal;\n    font-style: normal; }\n\n@font-face {\n    font-family: 'Lucida Sans Unicode';\n    src: url('../fonts/Lucida Sans Unicode.eot');\n    src: url('../fonts/Lucida Sans Unicode.eot?#iefix') format('embedded-opentype'),\n    url('../fonts/Lucida Sans Unicode.woff') format('woff'),\n    url('../fonts/Lucida Sans Unicode.ttf') format('truetype') {}\n    font-weight: 400;\n    font-style: normal;\n    font-stretch: normal; }\n\n"
+	],
+	"names": [],
+	"mappings": "AAAA,UAAU;EACN,WAAW,EAAE,0BAA0B;EACvC,GAAG,EAAE,0CAA0C;EAC/C,GAAG,EAAE,iDAAiD,CAAC,2BAA2B,EAClF,2CAA2C,CAAC,cAAc,EAC1D,0CAA0C,CAAC,kBAAkB;EAC7D,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;;;AAEtB,UAAU;EACN,WAAW,EAAE,qBAAqB;EAClC,GAAG,EAAE,uCAAuC;EAC5C,GAAG,EAAE,8CAA8C,CAAC,2BAA2B,EAC/E,wCAAwC,CAAC,cAAc,EACvD,uCAAuC,CAAC,kBAAkB;EAC1D,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;EAClB,YAAY,EAAE,MAAM"
+}
