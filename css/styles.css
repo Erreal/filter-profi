@@ -6,38 +6,52 @@
   font-style: normal;
 }
 
-/* line 11, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 4, ../Documents/sites/filter-profi/sass/styles.sass */
+button {
+  background-color: #ffcc00;
+  border: none;
+  color: #000000;
+  display: inline-block;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* line 12, ../Documents/sites/filter-profi/sass/styles.sass */
+body {
+  font-family: "Lucida Sans Unicode";
+  color: #fff;
+}
+
+/* line 16, ../Documents/sites/filter-profi/sass/styles.sass */
 header {
   background-color: #000066;
   color: #ffffff;
   width: 100%;
 }
 
-/* line 15, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 20, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-heading-text {
   height: 120px;
   margin: 0;
   padding: 20px 0;
 }
 
-/* line 19, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 24, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-heading-text h1 {
   color: #ffffff;
-  font-family: "Lucida Sans Unicode";
   font-size: 30px;
   font-weight: 400;
   line-height: 39px;
   text-transform: uppercase;
 }
 
-/* line 26, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 30, ../Documents/sites/filter-profi/sass/styles.sass */
 header nav.header-navigation {
   margin: 0;
 }
 
-/* line 28, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 32, ../Documents/sites/filter-profi/sass/styles.sass */
 header nav.header-navigation ul {
-  font-family: "Lucida Sans Unicode";
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -45,14 +59,14 @@ header nav.header-navigation ul {
   padding: 0;
 }
 
-/* line 35, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 38, ../Documents/sites/filter-profi/sass/styles.sass */
 header nav.header-navigation ul li {
   display: inline-block;
   margin: 0;
   padding-left: 13px;
 }
 
-/* line 39, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 42, ../Documents/sites/filter-profi/sass/styles.sass */
 header nav.header-navigation ul li a {
   color: #ffffff;
   text-decoration: none;
@@ -60,34 +74,33 @@ header nav.header-navigation ul li a {
   padding: 0;
 }
 
-/* line 44, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 47, ../Documents/sites/filter-profi/sass/styles.sass */
 header nav.header-navigation ul li a:hover {
   color: #dddddd;
   text-decoration: none;
 }
 
-/* line 47, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 50, ../Documents/sites/filter-profi/sass/styles.sass */
 header nav.header-navigation ul .navigation-first-item {
   padding-left: 0px;
 }
 
-/* line 49, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 52, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-contacts {
   border-left: #ffffff 1px solid;
   margin: 15px 0;
   text-align: right;
 }
 
-/* line 54, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 57, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-contacts .contacts-label p {
   margin: 0;
   padding: 0;
-  font-family: "Lucida Sans Unicode";
   font-size: 16px;
   font-weight: 400;
 }
 
-/* line 61, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 63, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-contacts .contacts-phone-wrapper .phone-icon {
   display: inline-block;
   border-radius: 50%;
@@ -100,23 +113,136 @@ header .header-contacts .contacts-phone-wrapper .phone-icon {
   text-align: center;
 }
 
-/* line 71, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 73, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-contacts .contacts-phone-wrapper .header-phone, header .header-contacts .contacts-phone-wrapper .header-phone:hover {
   color: #ffffff;
-  font-family: "Lucida Sans Unicode";
   font-size: 24px;
   text-decoration: none;
 }
 
-/* line 77, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 78, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-contacts .contacts-callback button {
-  background-color: #ffcc00;
-  border: none;
-  color: #000000;
-  display: inline-block;
-  text-transform: uppercase;
-  cursor: pointer;
   padding: 3px 15px;
+}
+
+/* line 81, ../Documents/sites/filter-profi/sass/styles.sass */
+.main {
+  background-image: url("../images/main-bg.jpg");
+  background-size: 100%;
+  background-position: center center;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 88, ../Documents/sites/filter-profi/sass/styles.sass */
+.main .main-wedo {
+  padding: 40px 50px;
+  background-color: rgba(0, 0, 102, 0.85);
+  width: 100%;
+  max-width: 650px;
+  margin-top: 245px;
+  margin-left: 0;
+}
+
+/* line 95, ../Documents/sites/filter-profi/sass/styles.sass */
+.main .main-wedo h2 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  padding-left: 46px;
+}
+
+/* line 102, ../Documents/sites/filter-profi/sass/styles.sass */
+.main .main-wedo ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* line 105, ../Documents/sites/filter-profi/sass/styles.sass */
+.main .main-wedo ul li {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 54px;
+}
+
+/* line 109, ../Documents/sites/filter-profi/sass/styles.sass */
+.main .main-wedo ul li::before {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  content: "\f00c";
+  color: #ffcc00;
+  margin-right: 24px;
+}
+
+/* line 115, ../Documents/sites/filter-profi/sass/styles.sass */
+.main .main-wedo button {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px 62px;
+}
+
+/* line 124, ../Documents/sites/filter-profi/sass/styles.sass */
+.main .main-bottom {
+  width: 100%;
+  background-color: rgba(0, 0, 102, 0.85);
+  margin-top: 100px;
+  padding: 20px 0 40px 0;
+  text-align: center;
+}
+
+/* line 130, ../Documents/sites/filter-profi/sass/styles.sass */
+.main .main-bottom h2 {
+  text-align: center;
+  font-size: 28px;
+  line-height: 39px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+/* line 136, ../Documents/sites/filter-profi/sass/styles.sass */
+.main .main-bottom .about-heading {
+  font-size: 18px;
+  text-transform: uppercase;
+  height: 50px;
+  position: relative;
+}
+
+/* line 141, ../Documents/sites/filter-profi/sass/styles.sass */
+.main .main-bottom .about-heading p {
+  display: block;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 148, ../Documents/sites/filter-profi/sass/styles.sass */
+.main .main-bottom .about-wrapper {
+  height: 90px;
+  border: 5px solid #ffcc00;
+  margin-top: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+/* line 155, ../Documents/sites/filter-profi/sass/styles.sass */
+.main .main-bottom .about-wrapper .about-yellow {
+  color: #ffcc00;
+  font-size: 35px;
+  line-height: 39px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 1200px) {

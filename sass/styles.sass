@@ -1,12 +1,17 @@
 @import "_fonts.sass"
 $y-color: #ffcc00
-=callback-button
+$deep-blue: #003399
+button
     background-color: $y-color
     border: none
     color: #000000
     display: inline-block
     text-transform: uppercase
     cursor: pointer
+
+body
+    font-family: "Lucida Sans Unicode"
+    color:#fff
     
 header
     background-color: #000066
@@ -17,8 +22,7 @@ header
         margin: 0
         padding: 20px 0
         h1
-            color: #ffffff
-            font-family: "Lucida Sans Unicode"
+            color: #ffffff           
             font-size: 30px
             font-weight: 400
             line-height: 39px
@@ -26,7 +30,6 @@ header
     nav.header-navigation
         margin: 0
         ul
-            font-family: "Lucida Sans Unicode"
             font-size: 14px
             font-weight: 400
             text-transform: uppercase
@@ -54,7 +57,6 @@ header
             p
                 margin: 0
                 padding: 0
-                font-family: "Lucida Sans Unicode"
                 font-size: 16px
                 font-weight: 400
         .contacts-phone-wrapper
@@ -70,15 +72,93 @@ header
                 text-align: center
             .header-phone, .header-phone:hover
                 color: #ffffff
-                font-family: "Lucida Sans Unicode"
                 font-size: 24px
                 text-decoration: none
         .contacts-callback
             button
-                +callback-button
                 padding: 3px 15px
                 
-
+.main
+    background-image: url('../images/main-bg.jpg')
+    background-size: 100%
+    background-position: center center
+    color: #ffffff
+    margin: 0
+    padding: 0
+    .main-wedo
+        padding: 40px 50px
+        background-color: rgba(0, 0, 102, 0.85)
+        width: 100%
+        max-width: 650px
+        margin-top: 245px
+        margin-left: 0
+        h2
+            font-size: 30px
+            font-weight: 400
+            line-height: 39px
+            text-decoration: underline
+            text-transform: uppercase
+            padding-left: 46px
+        ul
+            list-style-type: none
+            padding: 0
+            li
+                font-size: 24px
+                font-weight: 400
+                line-height: 54px
+                &::before
+                    font-family: "Font Awesome 5 Pro"
+                    font-weight: 900
+                    content: "\f00c"
+                    color: $y-color
+                    margin-right: 24px
+        button
+            display: block
+            margin-top: 50px
+            margin-left: auto
+            margin-right: auto
+            font-size: 24px
+            font-weight: bold
+            text-transform: uppercase
+            padding: 5px 62px
+    .main-bottom
+        width: 100%
+        background-color: rgba(0, 0, 102, 0.85)
+        margin-top: 100px
+        padding: 20px 0 40px 0
+        text-align: center
+        h2
+            text-align: center
+            font-size: 28px
+            line-height: 39px
+            text-transform: uppercase 
+            margin-bottom: 5px
+        .about-heading
+            font-size: 18px
+            text-transform: uppercase
+            height: 50px
+            position: relative            
+            p
+                display: block
+                margin: 0
+                position: absolute
+                top: 50%
+                left: 50%
+                transform: translate(-50%, -50%)
+        .about-wrapper
+            height: 90px
+            border: 5px solid $y-color
+            margin-top: 15px
+            font-size: 18px
+            text-transform: uppercase 
+            padding-top: 8px           
+            .about-yellow
+                color: $y-color
+                font-size: 35px
+                line-height: 39px
+                text-transform: uppercase
+                margin: 0
+                padding: 0
 
 @import _madia.sass
 
