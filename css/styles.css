@@ -128,14 +128,15 @@ header .header-contacts .contacts-callback button {
 /* line 81, ../Documents/sites/filter-profi/sass/styles.sass */
 .main {
   background-image: url("../images/main-bg.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-position: center center;
+  background-repeat: no-repeat;
   color: #ffffff;
   margin: 0;
   padding: 0;
 }
 
-/* line 88, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 89, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-wedo {
   padding: 40px 50px;
   background-color: rgba(0, 0, 102, 0.85);
@@ -145,7 +146,7 @@ header .header-contacts .contacts-callback button {
   margin-left: 0;
 }
 
-/* line 95, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 96, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-wedo h2 {
   font-size: 30px;
   font-weight: 400;
@@ -155,20 +156,20 @@ header .header-contacts .contacts-callback button {
   padding-left: 46px;
 }
 
-/* line 102, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 103, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-wedo ul {
   list-style-type: none;
   padding: 0;
 }
 
-/* line 105, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 106, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-wedo ul li {
   font-size: 24px;
   font-weight: 400;
   line-height: 54px;
 }
 
-/* line 109, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 110, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-wedo ul li::before {
   font-family: "Font Awesome 5 Pro";
   font-weight: 900;
@@ -177,7 +178,7 @@ header .header-contacts .contacts-callback button {
   margin-right: 24px;
 }
 
-/* line 115, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 116, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-wedo button {
   display: block;
   margin-top: 50px;
@@ -189,7 +190,7 @@ header .header-contacts .contacts-callback button {
   padding: 5px 62px;
 }
 
-/* line 124, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 125, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-bottom {
   width: 100%;
   background-color: rgba(0, 0, 102, 0.85);
@@ -198,7 +199,7 @@ header .header-contacts .contacts-callback button {
   text-align: center;
 }
 
-/* line 130, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 131, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-bottom h2 {
   text-align: center;
   font-size: 28px;
@@ -207,7 +208,7 @@ header .header-contacts .contacts-callback button {
   margin-bottom: 5px;
 }
 
-/* line 136, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 137, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-bottom .about-heading {
   font-size: 18px;
   text-transform: uppercase;
@@ -215,7 +216,7 @@ header .header-contacts .contacts-callback button {
   position: relative;
 }
 
-/* line 141, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 142, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-bottom .about-heading p {
   display: block;
   margin: 0;
@@ -225,17 +226,17 @@ header .header-contacts .contacts-callback button {
   transform: translate(-50%, -50%);
 }
 
-/* line 148, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 149, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-bottom .about-wrapper {
   height: 90px;
   border: 5px solid #ffcc00;
   margin-top: 15px;
   font-size: 18px;
   text-transform: uppercase;
-  padding-top: 15px;
+  padding-top: 8px;
 }
 
-/* line 155, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 156, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-bottom .about-wrapper .about-yellow {
   color: #ffcc00;
   font-size: 35px;
@@ -246,82 +247,132 @@ header .header-contacts .contacts-callback button {
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 3, ../Documents/sites/filter-profi/sass/_madia.sass */
+  /* line 3, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-heading-text {
     font-size: 25px;
     height: auto;
   }
-  /* line 6, ../Documents/sites/filter-profi/sass/_madia.sass */
+  /* line 6, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-heading-text h1 {
     font-size: 25px;
   }
-  /* line 9, ../Documents/sites/filter-profi/sass/_madia.sass */
+  /* line 9, ../Documents/sites/filter-profi/sass/_media.sass */
   header nav.header-navigation ul {
     font-size: 12px;
   }
-  /* line 11, ../Documents/sites/filter-profi/sass/_madia.sass */
+  /* line 11, ../Documents/sites/filter-profi/sass/_media.sass */
   header nav.header-navigation ul li {
     padding-left: 7px;
   }
-  /* line 15, ../Documents/sites/filter-profi/sass/_madia.sass */
+  /* line 15, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-contacts .contacts-phone-wrapper .phone-icon {
     width: 30px;
     height: 28px;
     font-size: 18px;
   }
-  /* line 19, ../Documents/sites/filter-profi/sass/_madia.sass */
+  /* line 19, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-contacts .contacts-phone-wrapper .header-phone, header .header-contacts .contacts-phone-wrapper .header-phone:hover {
     font-size: 20px;
+  }
+  /* line 22, ../Documents/sites/filter-profi/sass/_media.sass */
+  .main .main-wedo {
+    margin-top: 140px;
+    padding: 30px 50px;
+  }
+  /* line 25, ../Documents/sites/filter-profi/sass/_media.sass */
+  .main .main-wedo h2 {
+    font-size: 28px;
+  }
+  /* line 28, ../Documents/sites/filter-profi/sass/_media.sass */
+  .main .main-wedo ul li {
+    font-size: 22px;
+  }
+  /* line 30, ../Documents/sites/filter-profi/sass/_media.sass */
+  .main .main-wedo button {
+    margin-top: 30px;
+  }
+  /* line 32, ../Documents/sites/filter-profi/sass/_media.sass */
+  .main .main-bottom {
+    margin-top: 65px;
+  }
+  /* line 34, ../Documents/sites/filter-profi/sass/_media.sass */
+  .main .main-bottom h2 {
+    font-size: 26px;
+  }
+  /* line 36, ../Documents/sites/filter-profi/sass/_media.sass */
+  .main .main-bottom .about-heading {
+    font-size: 16px;
+  }
+  /* line 38, ../Documents/sites/filter-profi/sass/_media.sass */
+  .main .main-bottom .about-wrapper {
+    font-size: 16px;
+  }
+  /* line 40, ../Documents/sites/filter-profi/sass/_media.sass */
+  .main .main-bottom .about-wrapper .about-yellow {
+    font-size: 33px;
   }
 }
 
 @media screen and (max-width: 992px) {
-  /* line 24, ../Documents/sites/filter-profi/sass/_madia.sass */
+  /* line 45, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-heading-text {
     padding: 5px 0;
   }
-  /* line 26, ../Documents/sites/filter-profi/sass/_madia.sass */
+  /* line 47, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-heading-text h1 {
     font-size: 25px;
     text-align: center;
   }
-  /* line 30, ../Documents/sites/filter-profi/sass/_madia.sass */
+  /* line 51, ../Documents/sites/filter-profi/sass/_media.sass */
   header nav.header-navigation ul {
     font-size: 14px;
     margin-top: 10px;
   }
-  /* line 33, ../Documents/sites/filter-profi/sass/_madia.sass */
+  /* line 54, ../Documents/sites/filter-profi/sass/_media.sass */
   header nav.header-navigation ul li {
     padding-left: 13px;
   }
-  /* line 35, ../Documents/sites/filter-profi/sass/_madia.sass */
+  /* line 56, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-contacts {
     border-left: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  /* line 40, ../Documents/sites/filter-profi/sass/_madia.sass */
+  /* line 61, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-contacts .contacts-label {
     display: inline-block;
   }
-  /* line 42, ../Documents/sites/filter-profi/sass/_madia.sass */
+  /* line 63, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-contacts .contacts-phone-wrapper {
     display: inline-block;
   }
-  /* line 44, ../Documents/sites/filter-profi/sass/_madia.sass */
+  /* line 65, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-contacts .contacts-phone-wrapper .phone-icon {
     width: 30px;
     height: 28px;
     font-size: 18px;
   }
-  /* line 48, ../Documents/sites/filter-profi/sass/_madia.sass */
+  /* line 69, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-contacts .contacts-phone-wrapper .header-phone, header .header-contacts .contacts-phone-wrapper .header-phone:hover {
     font-size: 20px;
   }
-  /* line 50, ../Documents/sites/filter-profi/sass/_madia.sass */
+  /* line 71, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-contacts .contacts-callback {
     display: inline-block;
+  }
+  /* line 74, ../Documents/sites/filter-profi/sass/_media.sass */
+  .main .main-wedo {
+    margin-top: 30px;
+    padding: 20px;
+  }
+  /* line 77, ../Documents/sites/filter-profi/sass/_media.sass */
+  .main .main-wedo button {
+    margin-top: 10px;
+  }
+  /* line 79, ../Documents/sites/filter-profi/sass/_media.sass */
+  .main .main-bottom {
+    margin-top: 20px;
   }
 }
 
