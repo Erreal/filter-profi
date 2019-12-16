@@ -312,6 +312,38 @@ header .header-contacts .contacts-callback button {
   font-size: 14px;
 }
 
+/* line 200, ../Documents/sites/filter-profi/sass/styles.sass */
+.section-brands {
+  padding: 100px 0;
+  background-image: url("../images/section-brands-bg.jpg");
+  background-size: cover;
+  background-position: top center;
+  text-align: center;
+}
+
+/* line 206, ../Documents/sites/filter-profi/sass/styles.sass */
+.section-brands h2 {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+/* line 209, ../Documents/sites/filter-profi/sass/styles.sass */
+.section-brands p.top {
+  font-size: 14px;
+}
+
+/* line 211, ../Documents/sites/filter-profi/sass/styles.sass */
+.section-brands p.middle {
+  font-size: 24px;
+  line-height: 39px;
+}
+
+/* line 214, ../Documents/sites/filter-profi/sass/styles.sass */
+.section-brands p.bottom {
+  font-size: 28px;
+  line-height: 39px;
+}
+
 @media screen and (max-width: 1200px) {
   /* line 3, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-heading-text {
