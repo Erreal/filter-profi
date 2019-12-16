@@ -395,7 +395,7 @@ header .header-contacts .contacts-callback button {
 /* line 249, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands button {
   font-size: 28px;
-  padding: 12px 82px;
+  padding: 7px 82px;
   line-height: 28px;
 }
 
@@ -550,10 +550,14 @@ header .header-contacts .contacts-callback button {
   .section-2 .container .right-part .item-wrapper {
     padding: 15px;
   }
+  /* line 99, ../Documents/sites/filter-profi/sass/_media.sass */
+  .section-brands {
+    padding: 20px 10px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  /* line 101, ../Documents/sites/filter-profi/sass/_media.sass */
+  /* line 103, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-2 {
     padding: 15px 10px;
   }

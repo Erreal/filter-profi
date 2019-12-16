@@ -200,11 +200,23 @@
     <script>$(document).ready(function(){
       $('.owl-carousel').owlCarousel({
         loop:true,
-        items:5,
         nav:true,
         dots:false,
-        center:true,
-        margin:0
+        responsive:{ //Адаптивность. Кол-во выводимых элементов при определенной ширине.
+                    0:{
+                      items:1
+                    },
+                    576:{
+                      items:2
+                    },
+                    992:{
+                      items:4
+                    },
+                    1200:{
+                      items:5
+                    }
+
+                }
       });
       });</script>
 </body>
