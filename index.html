@@ -9,8 +9,11 @@
   <link href="http://allfont.ru/allfont.css?fonts=lucida-sans-unicode" rel="stylesheet" type="text/css" />
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="/css/owl.theme.default.min.css" />
+    
   <link rel="stylesheet" href="/css/styles.css">
 
   <title>Сервисное обслуживание, ремонт, замена фильтров для пурифайеров в Москве и МО.</title>
@@ -163,7 +166,17 @@
         <div class="brands-wrapper">
           <h2>Мы обслуживаем</h2>
           <p class="top">Выберите марку своего пурифайера </p>
-          <div class="brands-carousel"></div>
+          <div class="brands-carousel">
+            <div class="owl-carousel owl-theme">
+              <div class="brands-item"><img src="/images/ecotronic-logo.png" alt="Ecotronic"></div>
+              <div class="brands-item"><img src="/images/AEL-logo.png" alt="AEL"></div>
+              <div class="brands-item"><img src="/images/aquastar-logo.png" alt="AquaStar"></div>
+              <div class="brands-item"><img src="/images/bioray-logo.png" alt="BioRay"></div>
+              <div class="brands-item"><img src="/images/ecomaster-logo.png" alt="EcoMaster"></div>
+              <div class="brands-item"><img src="/images/hotfrost-logo.png" alt="HotFrost"></div>
+              <div class="brands-item"><img src="/images/vatten-logo.png" alt="Vatten"></div>
+          </div>
+          </div>
           <p class="middle">Не нашли марку своего пурифайера? Закажите консультацию специалиста!</p>
           <button>Заказать звонок</button>
           <p class="bottom">Мы уверены, что сможем вам помочь!</p>
@@ -183,6 +196,17 @@
     crossorigin="anonymous"></script>
   <script src="/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+    <script src="/js/owl.carousel.js"></script>
+    <script>$(document).ready(function(){
+      $('.owl-carousel').owlCarousel({
+        loop:true,
+        items:5,
+        nav:true,
+        dots:false,
+        center:true,
+        margin:0
+      });
+      });</script>
 </body>
 
 </html>

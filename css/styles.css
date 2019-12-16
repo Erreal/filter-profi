@@ -6,7 +6,7 @@
   font-style: normal;
 }
 
-/* line 4, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 8, ../Documents/sites/filter-profi/sass/styles.sass */
 button {
   background-color: #ffcc00;
   border: none;
@@ -16,27 +16,32 @@ button {
   cursor: pointer;
 }
 
-/* line 12, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 15, ../Documents/sites/filter-profi/sass/styles.sass */
+button:active, button:focus {
+  outline: none !important;
+}
+
+/* line 18, ../Documents/sites/filter-profi/sass/styles.sass */
 body {
   font-family: "Lucida Sans Unicode";
   color: #fff;
 }
 
-/* line 16, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 22, ../Documents/sites/filter-profi/sass/styles.sass */
 header {
   background-color: #000066;
   color: #ffffff;
   width: 100%;
 }
 
-/* line 20, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 26, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-heading-text {
   height: 120px;
   margin: 0;
   padding: 20px 0;
 }
 
-/* line 24, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 30, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-heading-text h1 {
   color: #ffffff;
   font-size: 30px;
@@ -45,12 +50,12 @@ header .header-heading-text h1 {
   text-transform: uppercase;
 }
 
-/* line 30, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 36, ../Documents/sites/filter-profi/sass/styles.sass */
 header nav.header-navigation {
   margin: 0;
 }
 
-/* line 32, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 38, ../Documents/sites/filter-profi/sass/styles.sass */
 header nav.header-navigation ul {
   font-size: 14px;
   font-weight: 400;
@@ -59,14 +64,14 @@ header nav.header-navigation ul {
   padding: 0;
 }
 
-/* line 38, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 44, ../Documents/sites/filter-profi/sass/styles.sass */
 header nav.header-navigation ul li {
   display: inline-block;
   margin: 0;
   padding-left: 13px;
 }
 
-/* line 42, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 48, ../Documents/sites/filter-profi/sass/styles.sass */
 header nav.header-navigation ul li a {
   color: #ffffff;
   text-decoration: none;
@@ -74,25 +79,25 @@ header nav.header-navigation ul li a {
   padding: 0;
 }
 
-/* line 47, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 53, ../Documents/sites/filter-profi/sass/styles.sass */
 header nav.header-navigation ul li a:hover {
   color: #dddddd;
   text-decoration: none;
 }
 
-/* line 50, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 56, ../Documents/sites/filter-profi/sass/styles.sass */
 header nav.header-navigation ul .navigation-first-item {
   padding-left: 0px;
 }
 
-/* line 52, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 58, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-contacts {
   border-left: #ffffff 1px solid;
   margin: 15px 0;
   text-align: right;
 }
 
-/* line 57, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 63, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-contacts .contacts-label p {
   margin: 0;
   padding: 0;
@@ -100,7 +105,7 @@ header .header-contacts .contacts-label p {
   font-weight: 400;
 }
 
-/* line 63, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 69, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-contacts .contacts-phone-wrapper .phone-icon {
   display: inline-block;
   border-radius: 50%;
@@ -113,19 +118,19 @@ header .header-contacts .contacts-phone-wrapper .phone-icon {
   text-align: center;
 }
 
-/* line 73, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 79, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-contacts .contacts-phone-wrapper .header-phone, header .header-contacts .contacts-phone-wrapper .header-phone:hover {
   color: #ffffff;
   font-size: 24px;
   text-decoration: none;
 }
 
-/* line 78, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 84, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-contacts .contacts-callback button {
   padding: 3px 15px;
 }
 
-/* line 81, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 87, ../Documents/sites/filter-profi/sass/styles.sass */
 .main {
   background-image: url("../images/main-bg.jpg");
   background-size: cover;
@@ -136,7 +141,7 @@ header .header-contacts .contacts-callback button {
   padding: 0;
 }
 
-/* line 89, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 95, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-wedo {
   padding: 40px 50px;
   background-color: rgba(0, 0, 102, 0.85);
@@ -146,7 +151,7 @@ header .header-contacts .contacts-callback button {
   margin-left: 0;
 }
 
-/* line 96, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 102, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-wedo h2 {
   font-size: 30px;
   font-weight: 400;
@@ -156,20 +161,20 @@ header .header-contacts .contacts-callback button {
   padding-left: 46px;
 }
 
-/* line 103, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 109, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-wedo ul {
   list-style-type: none;
   padding: 0;
 }
 
-/* line 106, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 112, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-wedo ul li {
   font-size: 24px;
   font-weight: 400;
   line-height: 54px;
 }
 
-/* line 110, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 116, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-wedo ul li::before {
   font-family: "Font Awesome 5 Pro";
   font-weight: 900;
@@ -178,7 +183,7 @@ header .header-contacts .contacts-callback button {
   margin-right: 24px;
 }
 
-/* line 116, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 122, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-wedo button {
   display: block;
   margin-top: 50px;
@@ -190,7 +195,7 @@ header .header-contacts .contacts-callback button {
   padding: 5px 62px;
 }
 
-/* line 125, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 131, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-bottom {
   width: 100%;
   background-color: rgba(0, 0, 102, 0.85);
@@ -199,7 +204,7 @@ header .header-contacts .contacts-callback button {
   text-align: center;
 }
 
-/* line 131, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 137, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-bottom h2 {
   text-align: center;
   font-size: 28px;
@@ -208,7 +213,7 @@ header .header-contacts .contacts-callback button {
   margin-bottom: 5px;
 }
 
-/* line 137, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 143, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-bottom .about-heading {
   font-size: 18px;
   text-transform: uppercase;
@@ -216,7 +221,7 @@ header .header-contacts .contacts-callback button {
   position: relative;
 }
 
-/* line 142, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 148, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-bottom .about-heading p {
   display: block;
   margin: 0;
@@ -226,7 +231,7 @@ header .header-contacts .contacts-callback button {
   transform: translate(-50%, -50%);
 }
 
-/* line 149, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 155, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-bottom .about-wrapper {
   height: 90px;
   border: 5px solid #ffcc00;
@@ -236,7 +241,7 @@ header .header-contacts .contacts-callback button {
   padding-top: 8px;
 }
 
-/* line 156, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 162, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-bottom .about-wrapper .about-yellow {
   color: #ffcc00;
   font-size: 35px;
@@ -246,7 +251,7 @@ header .header-contacts .contacts-callback button {
   padding: 0;
 }
 
-/* line 163, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 169, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-2 {
   background-image: url("../images/section-2-bg.jpg");
   background-size: cover;
@@ -257,18 +262,18 @@ header .header-contacts .contacts-callback button {
   padding: 65px 0 85px 0;
 }
 
-/* line 172, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 178, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-2 .container .section-2-wrapper {
   background-color: rgba(0, 51, 153, 0.7);
 }
 
-/* line 174, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 180, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-2 .container .left-part {
   background-color: rgba(0, 0, 102, 0.85);
   position: relative;
 }
 
-/* line 177, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 183, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-2 .container .left-part h2 {
   display: block;
   font-size: 30px;
@@ -276,24 +281,24 @@ header .header-contacts .contacts-callback button {
   margin: 106px 49px 160px 68px;
 }
 
-/* line 182, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 188, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-2 .container .right-part {
   text-align: center;
   display: flex;
 }
 
-/* line 185, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 191, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-2 .container .right-part .item-wrapper {
   padding: 45px 15px;
 }
 
-/* line 187, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 193, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-2 .container .right-part .item-wrapper .item-image {
   max-width: 165px;
   width: 100%;
 }
 
-/* line 190, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 196, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-2 .container .right-part .item-wrapper .item-text {
   background-color: rgba(0, 0, 102, 0.85);
   padding: 18px 28px;
@@ -302,17 +307,17 @@ header .header-contacts .contacts-callback button {
   margin: 0 auto;
 }
 
-/* line 196, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 202, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-2 .container .right-part .item-wrapper .item-text h3 {
   font-size: 18px;
 }
 
-/* line 198, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 204, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-2 .container .right-part .item-wrapper .item-text p {
   font-size: 14px;
 }
 
-/* line 200, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 206, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands {
   padding: 100px 0;
   background-image: url("../images/section-brands-bg.jpg");
@@ -321,24 +326,80 @@ header .header-contacts .contacts-callback button {
   text-align: center;
 }
 
-/* line 206, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 212, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands h2 {
   font-size: 28px;
   text-transform: uppercase;
 }
 
-/* line 209, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 215, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands p.top {
   font-size: 14px;
 }
 
-/* line 211, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 217, ../Documents/sites/filter-profi/sass/styles.sass */
+.section-brands .brands-carousel {
+  background-color: #fff;
+  position: relative;
+  padding: 23px 64px;
+}
+
+/* line 221, ../Documents/sites/filter-profi/sass/styles.sass */
+.section-brands .brands-carousel .brands-item {
+  border: 2px solid #ffcc00;
+  width: 165px;
+  height: 96px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* line 228, ../Documents/sites/filter-profi/sass/styles.sass */
+.section-brands .brands-carousel .owl-theme .owl-nav {
+  color: #003399;
+  font-size: 80px;
+  position: absolute;
+  top: -30px;
+  width: 100%;
+}
+
+/* line 234, ../Documents/sites/filter-profi/sass/styles.sass */
+.section-brands .brands-carousel .owl-theme .owl-nav .owl-prev {
+  position: absolute;
+  left: -35px;
+}
+
+/* line 237, ../Documents/sites/filter-profi/sass/styles.sass */
+.section-brands .brands-carousel .owl-theme .owl-nav .owl-prev:hover {
+  color: #6699CC;
+  background-color: #ffffff;
+}
+
+/* line 240, ../Documents/sites/filter-profi/sass/styles.sass */
+.section-brands .brands-carousel .owl-theme .owl-nav .owl-next {
+  position: absolute;
+  right: -35px;
+}
+
+/* line 243, ../Documents/sites/filter-profi/sass/styles.sass */
+.section-brands .brands-carousel .owl-theme .owl-nav .owl-next:hover {
+  color: #6699CC;
+  background-color: #ffffff;
+}
+
+/* line 246, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands p.middle {
   font-size: 24px;
   line-height: 39px;
 }
 
-/* line 214, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 249, ../Documents/sites/filter-profi/sass/styles.sass */
+.section-brands button {
+  font-size: 28px;
+  padding: 12px 82px;
+  line-height: 28px;
+}
+
+/* line 253, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands p.bottom {
   font-size: 28px;
   line-height: 39px;

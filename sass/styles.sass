@@ -1,6 +1,10 @@
 @import "_fonts.sass"
 $y-color: #ffcc00
 $deep-blue: #003399
+$dark-blue: #000066
+$blue: #3366CC
+$lite-blue: #6699CC
+
 button
     background-color: $y-color
     border: none
@@ -8,13 +12,15 @@ button
     display: inline-block
     text-transform: uppercase
     cursor: pointer
+    &:active, &:focus
+        outline: none!important
 
 body
     font-family: "Lucida Sans Unicode"
     color:#fff
     
 header
-    background-color: #000066
+    background-color: $dark-blue
     color: #ffffff
     width: 100%
     .header-heading-text
@@ -208,9 +214,42 @@ header
         text-transform: uppercase
     p.top
         font-size: 14px
+    .brands-carousel
+        background-color:#fff
+        position: relative
+        padding: 23px 64px
+        .brands-item
+            border: 2px solid $y-color
+            width: 165px
+            height: 96px
+            margin: 0 auto
+            padding: 20px
+        .owl-theme
+            .owl-nav
+                color: $deep-blue
+                font-size: 80px
+                position: absolute
+                top: -30px
+                width: 100%
+                .owl-prev
+                    position: absolute
+                    left: -35px
+                    &:hover
+                        color: $lite-blue
+                        background-color: #ffffff
+                .owl-next
+                    position: absolute
+                    right: -35px
+                    &:hover
+                        color: $lite-blue
+                        background-color: #ffffff
     p.middle
         font-size: 24px
         line-height: 39px
+    button
+        font-size: 28px
+        padding: 7px 82px
+        line-height: 28px
     p.bottom
         font-size: 28px
         line-height: 39px
