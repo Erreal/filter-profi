@@ -327,24 +327,32 @@ header .header-contacts .contacts-callback button {
 }
 
 /* line 212, ../Documents/sites/filter-profi/sass/styles.sass */
+.section-brands .brands-wrapper {
+  padding: 20px 34px;
+  background-image: url("../images/about-us-wrapper-bg.png");
+  background-size: cover;
+  background-position: top center;
+}
+
+/* line 217, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands h2 {
   font-size: 28px;
   text-transform: uppercase;
 }
 
-/* line 215, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 220, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands p.top {
   font-size: 14px;
 }
 
-/* line 217, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 222, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands .brands-carousel {
   background-color: #fff;
   position: relative;
   padding: 23px 64px;
 }
 
-/* line 221, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 226, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands .brands-carousel .brands-item {
   border: 2px solid #ffcc00;
   width: 165px;
@@ -353,7 +361,7 @@ header .header-contacts .contacts-callback button {
   padding: 20px;
 }
 
-/* line 228, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 233, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands .brands-carousel .owl-theme .owl-nav {
   color: #003399;
   font-size: 80px;
@@ -362,47 +370,55 @@ header .header-contacts .contacts-callback button {
   width: 100%;
 }
 
-/* line 234, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 239, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands .brands-carousel .owl-theme .owl-nav .owl-prev {
   position: absolute;
   left: -35px;
 }
 
-/* line 237, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 242, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands .brands-carousel .owl-theme .owl-nav .owl-prev:hover {
   color: #6699CC;
   background-color: #ffffff;
 }
 
-/* line 240, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 245, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands .brands-carousel .owl-theme .owl-nav .owl-next {
   position: absolute;
   right: -35px;
 }
 
-/* line 243, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 248, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands .brands-carousel .owl-theme .owl-nav .owl-next:hover {
   color: #6699CC;
   background-color: #ffffff;
 }
 
-/* line 246, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 251, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands p.middle {
   font-size: 24px;
   line-height: 39px;
 }
 
-/* line 249, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 254, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands button {
   font-size: 28px;
   padding: 7px 82px;
   line-height: 28px;
 }
 
-/* line 253, ../Documents/sites/filter-profi/sass/styles.sass */
+/* line 258, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands p.bottom {
   font-size: 28px;
   line-height: 39px;
+}
+
+/* line 261, ../Documents/sites/filter-profi/sass/styles.sass */
+.section-aboutus {
+  padding: 33px 0 39px 0;
+  background-image: url("../images/section-aboutus-bg.jpg");
+  background-size: cover;
+  background-position: center center;
 }
 
 @media screen and (max-width: 1200px) {
@@ -560,6 +576,35 @@ header .header-contacts .contacts-callback button {
   /* line 103, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-2 {
     padding: 15px 10px;
+  }
+  /* line 106, ../Documents/sites/filter-profi/sass/_media.sass */
+  .section-brands .brands-wrapper {
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  /* line 110, ../Documents/sites/filter-profi/sass/_media.sass */
+  .section-brands {
+    padding: 10px 5px;
+  }
+  /* line 112, ../Documents/sites/filter-profi/sass/_media.sass */
+  .section-brands .brands-wrapper {
+    padding: 5px;
+  }
+  /* line 115, ../Documents/sites/filter-profi/sass/_media.sass */
+  .section-brands .brands-carousel .brands-item {
+    width: 100%;
+    height: auto;
+  }
+  /* line 119, ../Documents/sites/filter-profi/sass/_media.sass */
+  .section-brands .brands-carousel .owl-theme .owl-nav {
+    display: none;
+  }
+  /* line 121, ../Documents/sites/filter-profi/sass/_media.sass */
+  .section-brands button {
+    padding: 3px;
+    width: 100%;
   }
 }
 
