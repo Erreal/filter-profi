@@ -5,6 +5,10 @@ $dark-blue: #000066
 $blue: #3366CC
 $lite-blue: #6699CC
 
+.marker-yellow
+   text-transform: uppercase
+   color: $y-color
+     
 button
     background-color: $y-color
     border: none
@@ -18,7 +22,10 @@ button
 body
     font-family: "Lucida Sans Unicode"
     color:#fff
-    
+
+a
+    cursor: pointer
+
 header
     background-color: $dark-blue
     color: #ffffff
@@ -262,8 +269,41 @@ header
     padding: 33px 0 39px 0
     background-image: url('../images/section-aboutus-bg.jpg')
     background-size: cover
-    background-position: center center      
-
+    background-position: center center
+    .aboutus-wrapper
+        background-color: rgba(0, 0, 102, 0.85)
+        padding: 15px 54px
+        h2
+            display: block
+            padding: 15px 22px
+            background-image: url('../images/aboutus-heading-bg.png')
+            background-size: cover
+            background-position: top left
+            font-size: 30px
+            text-transform: uppercase
+        p
+            margin-top: 20px
+            font-size: 18px
+.section-contacts
+    background-image: url('../images/section-contacts-bg.jpg')
+    background-size: cover
+    background-position: top center
+    padding: 32px 10px
+    text-align: center
+    h2
+        font-size: 30px
+        text-transform: uppercase
+        margin-bottom: 60px
+    p
+        font-size: 22px
+        text-align: left
+        white-space: nowrap
+        a, a:hover, a:active
+            color: #ffffff 
+            font-size: 22px
+            text-align: left
+            white-space: nowrap
+            text-decoration: none
 
 @import _media.sass
 
