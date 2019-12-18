@@ -522,8 +522,9 @@ header .header-contacts .contacts-callback button {
   color: #fff;
   text-decoration: none;
   position: absolute;
-  left: 9px;
-  top: -5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 1200px) {
@@ -712,36 +713,40 @@ header .header-contacts .contacts-callback button {
   }
   /* line 123, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-brands .brands-wrapper {
-    padding: 5px;
+    padding: 15px;
   }
-  /* line 126, ../Documents/sites/filter-profi/sass/_media.sass */
+  /* line 125, ../Documents/sites/filter-profi/sass/_media.sass */
+  .section-brands .brands-carousel {
+    padding: 23px 44px;
+  }
+  /* line 127, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-brands .brands-carousel .brands-item {
     width: 100%;
     height: auto;
   }
-  /* line 130, ../Documents/sites/filter-profi/sass/_media.sass */
+  /* line 131, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-brands .brands-carousel .owl-theme .owl-nav {
     display: none;
   }
-  /* line 132, ../Documents/sites/filter-profi/sass/_media.sass */
+  /* line 133, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-brands button {
     padding: 3px;
     width: 100%;
   }
-  /* line 136, ../Documents/sites/filter-profi/sass/_media.sass */
+  /* line 137, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-aboutus .aboutus-wrapper {
     padding: 15px;
   }
-  /* line 139, ../Documents/sites/filter-profi/sass/_media.sass */
+  /* line 140, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-contacts h2 {
     margin-bottom: 10px;
     font-size: 26px;
   }
-  /* line 142, ../Documents/sites/filter-profi/sass/_media.sass */
+  /* line 143, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-contacts p {
     font-size: 16px;
   }
-  /* line 144, ../Documents/sites/filter-profi/sass/_media.sass */
+  /* line 145, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-contacts p a, .section-contacts p a:hover, .section-contacts p a:active {
     font-size: 16px;
   }
