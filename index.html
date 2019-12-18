@@ -21,7 +21,10 @@
 </head>
 
 <body>
-  <header class="header">
+  <div class="scroll-up">
+    <a href="#header"><i class="fas fa-chevron-up"></a></i>
+  </div>
+  <header class="header" id="header">
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
@@ -32,10 +35,10 @@
         <div class="col-lg-5">
           <nav class="header-navigation">
             <ul>
-              <li class="navigation-first-item"><a href="#">Преимущества</a></li>
-              <li><a href="#">Мы обслуживаем</a></li>
-              <li><a href="#">Фильтры</a></li>
-              <li><a href="#">Контакты</a></li>
+              <li class="navigation-first-item"><a href="#section-2">Преимущества</a></li>
+              <li><a href="#section-brands">Мы обслуживаем</a></li>
+              <li><a href="#section-aboutus">Фильтры</a></li>
+              <li><a href="#section-contacts">Контакты</a></li>
             </ul>
           </nav>
         </div>
@@ -111,9 +114,9 @@
         </div>
       </div>
     </div>
-
   </section>
-  <section class="section-2">
+
+  <section class="section-2" id="section-2">
     <div class="container">
 
 
@@ -167,7 +170,7 @@
         </div>
   </section>
 
-  <section class="section-brands">
+  <section class="section-brands" id="section-brands">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -193,7 +196,7 @@
       </div>
     </div>
   </section>
-  <section class="section-aboutus">
+  <section class="section-aboutus" id="section-aboutus">
     <div class="container">
       <div class="aboutus-wrapper">
         <h2>О нас</h2>
@@ -208,7 +211,7 @@
     </div>
   </section>
 
-<section class="section-contacts">
+<section class="section-contacts" id="section-contacts">
   <div class="container">
     <h2>Контакты</h2>
     <div class="row">
@@ -234,9 +237,8 @@
 </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
+  <script src="/js/jquery-3.4.1.min.js"></script>
+  <script src="/js/jquery-migrate-1.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
