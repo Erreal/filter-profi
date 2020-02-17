@@ -6,13 +6,11 @@
   font-style: normal;
 }
 
-/* line 8, ../Documents/sites/filter-profi/sass/styles.sass */
 .marker-yellow {
   text-transform: uppercase;
   color: #ffcc00;
 }
 
-/* line 12, ../Documents/sites/filter-profi/sass/styles.sass */
 button {
   background-color: #ffcc00;
   border: none;
@@ -22,37 +20,31 @@ button {
   cursor: pointer;
 }
 
-/* line 19, ../Documents/sites/filter-profi/sass/styles.sass */
 button:active, button:focus {
   outline: none !important;
 }
 
-/* line 22, ../Documents/sites/filter-profi/sass/styles.sass */
 body {
   font-family: "Lucida Sans Unicode";
   color: #fff;
 }
 
-/* line 26, ../Documents/sites/filter-profi/sass/styles.sass */
 a {
   cursor: pointer;
 }
 
-/* line 29, ../Documents/sites/filter-profi/sass/styles.sass */
 header {
   background-color: #000066;
   color: #ffffff;
   width: 100%;
 }
 
-/* line 33, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-heading-text {
   height: 120px;
   margin: 0;
   padding: 20px 0;
 }
 
-/* line 37, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-heading-text h1 {
   color: #ffffff;
   font-size: 30px;
@@ -61,12 +53,10 @@ header .header-heading-text h1 {
   text-transform: uppercase;
 }
 
-/* line 43, ../Documents/sites/filter-profi/sass/styles.sass */
 header nav.header-navigation {
   margin: 0;
 }
 
-/* line 45, ../Documents/sites/filter-profi/sass/styles.sass */
 header nav.header-navigation ul {
   font-size: 14px;
   font-weight: 400;
@@ -75,14 +65,12 @@ header nav.header-navigation ul {
   padding: 0;
 }
 
-/* line 51, ../Documents/sites/filter-profi/sass/styles.sass */
 header nav.header-navigation ul li {
   display: inline-block;
   margin: 0;
   padding-left: 13px;
 }
 
-/* line 55, ../Documents/sites/filter-profi/sass/styles.sass */
 header nav.header-navigation ul li a {
   color: #ffffff;
   text-decoration: none;
@@ -90,25 +78,21 @@ header nav.header-navigation ul li a {
   padding: 0;
 }
 
-/* line 60, ../Documents/sites/filter-profi/sass/styles.sass */
 header nav.header-navigation ul li a:hover {
   color: #dddddd;
   text-decoration: none;
 }
 
-/* line 63, ../Documents/sites/filter-profi/sass/styles.sass */
 header nav.header-navigation ul .navigation-first-item {
   padding-left: 0px;
 }
 
-/* line 65, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-contacts {
   border-left: #ffffff 1px solid;
   margin: 15px 0;
   text-align: right;
 }
 
-/* line 70, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-contacts .contacts-label p {
   margin: 0;
   padding: 0;
@@ -116,7 +100,6 @@ header .header-contacts .contacts-label p {
   font-weight: 400;
 }
 
-/* line 76, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-contacts .contacts-phone-wrapper .phone-icon {
   display: inline-block;
   border-radius: 50%;
@@ -129,19 +112,16 @@ header .header-contacts .contacts-phone-wrapper .phone-icon {
   text-align: center;
 }
 
-/* line 86, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-contacts .contacts-phone-wrapper .header-phone, header .header-contacts .contacts-phone-wrapper .header-phone:hover {
   color: #ffffff;
   font-size: 24px;
   text-decoration: none;
 }
 
-/* line 91, ../Documents/sites/filter-profi/sass/styles.sass */
 header .header-contacts .contacts-callback button {
   padding: 3px 15px;
 }
 
-/* line 94, ../Documents/sites/filter-profi/sass/styles.sass */
 .main {
   background-image: url("../images/main-bg.jpg");
   background-size: cover;
@@ -152,7 +132,6 @@ header .header-contacts .contacts-callback button {
   padding: 0;
 }
 
-/* line 102, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-wedo {
   padding: 40px 50px;
   background-color: rgba(0, 0, 102, 0.85);
@@ -162,7 +141,6 @@ header .header-contacts .contacts-callback button {
   margin-left: 0;
 }
 
-/* line 109, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-wedo h2 {
   font-size: 30px;
   font-weight: 400;
@@ -172,20 +150,17 @@ header .header-contacts .contacts-callback button {
   padding-left: 46px;
 }
 
-/* line 116, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-wedo ul {
   list-style-type: none;
   padding: 0;
 }
 
-/* line 119, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-wedo ul li {
   font-size: 24px;
   font-weight: 400;
   line-height: 54px;
 }
 
-/* line 123, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-wedo ul li::before {
   font-family: "Font Awesome 5 Pro";
   font-weight: 900;
@@ -194,7 +169,6 @@ header .header-contacts .contacts-callback button {
   margin-right: 24px;
 }
 
-/* line 129, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-wedo button {
   display: block;
   margin-top: 50px;
@@ -206,7 +180,6 @@ header .header-contacts .contacts-callback button {
   padding: 5px 62px;
 }
 
-/* line 138, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-bottom {
   width: 100%;
   background-color: rgba(0, 0, 102, 0.85);
@@ -215,7 +188,6 @@ header .header-contacts .contacts-callback button {
   text-align: center;
 }
 
-/* line 144, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-bottom h2 {
   text-align: center;
   font-size: 28px;
@@ -224,7 +196,6 @@ header .header-contacts .contacts-callback button {
   margin-bottom: 5px;
 }
 
-/* line 150, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-bottom .about-heading {
   font-size: 18px;
   text-transform: uppercase;
@@ -232,7 +203,6 @@ header .header-contacts .contacts-callback button {
   position: relative;
 }
 
-/* line 155, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-bottom .about-heading p {
   display: block;
   margin: 0;
@@ -242,7 +212,6 @@ header .header-contacts .contacts-callback button {
   transform: translate(-50%, -50%);
 }
 
-/* line 162, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-bottom .about-wrapper {
   height: 90px;
   border: 5px solid #ffcc00;
@@ -252,7 +221,6 @@ header .header-contacts .contacts-callback button {
   padding-top: 8px;
 }
 
-/* line 169, ../Documents/sites/filter-profi/sass/styles.sass */
 .main .main-bottom .about-wrapper .about-yellow {
   color: #ffcc00;
   font-size: 35px;
@@ -262,7 +230,6 @@ header .header-contacts .contacts-callback button {
   padding: 0;
 }
 
-/* line 176, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-2 {
   background-image: url("../images/section-2-bg.jpg");
   background-size: cover;
@@ -273,18 +240,15 @@ header .header-contacts .contacts-callback button {
   padding: 65px 0 85px 0;
 }
 
-/* line 185, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-2 .container .section-2-wrapper {
   background-color: rgba(0, 51, 153, 0.7);
 }
 
-/* line 187, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-2 .container .left-part {
   background-color: rgba(0, 0, 102, 0.85);
   position: relative;
 }
 
-/* line 190, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-2 .container .left-part h2 {
   display: block;
   font-size: 30px;
@@ -292,24 +256,20 @@ header .header-contacts .contacts-callback button {
   margin: 106px 49px 160px 68px;
 }
 
-/* line 195, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-2 .container .right-part {
   text-align: center;
   display: flex;
 }
 
-/* line 198, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-2 .container .right-part .item-wrapper {
   padding: 45px 15px;
 }
 
-/* line 200, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-2 .container .right-part .item-wrapper .item-image {
   max-width: 165px;
   width: 100%;
 }
 
-/* line 203, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-2 .container .right-part .item-wrapper .item-text {
   background-color: rgba(0, 0, 102, 0.85);
   padding: 18px 28px;
@@ -318,17 +278,14 @@ header .header-contacts .contacts-callback button {
   margin: 0 auto;
 }
 
-/* line 209, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-2 .container .right-part .item-wrapper .item-text h3 {
   font-size: 18px;
 }
 
-/* line 211, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-2 .container .right-part .item-wrapper .item-text p {
   font-size: 14px;
 }
 
-/* line 213, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands {
   padding: 100px 0;
   background-image: url("../images/section-brands-bg.jpg");
@@ -337,7 +294,6 @@ header .header-contacts .contacts-callback button {
   text-align: center;
 }
 
-/* line 219, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands .brands-wrapper {
   padding: 20px 34px;
   background-image: url("../images/about-us-wrapper-bg.png");
@@ -345,25 +301,21 @@ header .header-contacts .contacts-callback button {
   background-position: top center;
 }
 
-/* line 224, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands h2 {
   font-size: 28px;
   text-transform: uppercase;
 }
 
-/* line 227, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands p.top {
   font-size: 14px;
 }
 
-/* line 229, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands .brands-carousel {
   background-color: #fff;
   position: relative;
   padding: 23px 64px;
 }
 
-/* line 233, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands .brands-carousel .brands-item {
   border: 2px solid #ffcc00;
   width: 165px;
@@ -372,7 +324,6 @@ header .header-contacts .contacts-callback button {
   padding: 20px;
 }
 
-/* line 240, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands .brands-carousel .owl-theme .owl-nav {
   color: #003399;
   font-size: 80px;
@@ -381,50 +332,42 @@ header .header-contacts .contacts-callback button {
   width: 100%;
 }
 
-/* line 246, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands .brands-carousel .owl-theme .owl-nav .owl-prev {
   position: absolute;
   left: -35px;
 }
 
-/* line 249, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands .brands-carousel .owl-theme .owl-nav .owl-prev:hover {
   color: #6699CC;
   background-color: #ffffff;
 }
 
-/* line 252, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands .brands-carousel .owl-theme .owl-nav .owl-next {
   position: absolute;
   right: -35px;
 }
 
-/* line 255, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands .brands-carousel .owl-theme .owl-nav .owl-next:hover {
   color: #6699CC;
   background-color: #ffffff;
 }
 
-/* line 258, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands p.middle {
   font-size: 24px;
   line-height: 39px;
 }
 
-/* line 261, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands button {
   font-size: 28px;
   padding: 7px 82px;
   line-height: 28px;
 }
 
-/* line 265, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-brands p.bottom {
   font-size: 28px;
   line-height: 39px;
 }
 
-/* line 268, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-aboutus {
   padding: 33px 0 39px 0;
   background-image: url("../images/section-aboutus-bg.jpg");
@@ -432,13 +375,11 @@ header .header-contacts .contacts-callback button {
   background-position: center center;
 }
 
-/* line 273, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-aboutus .aboutus-wrapper {
   background-color: rgba(0, 0, 102, 0.85);
   padding: 15px 54px;
 }
 
-/* line 276, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-aboutus .aboutus-wrapper h2 {
   display: block;
   padding: 15px 22px;
@@ -449,13 +390,11 @@ header .header-contacts .contacts-callback button {
   text-transform: uppercase;
 }
 
-/* line 284, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-aboutus .aboutus-wrapper p {
   margin-top: 20px;
   font-size: 18px;
 }
 
-/* line 287, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-contacts {
   background-image: url("../images/section-contacts-bg.jpg");
   background-size: cover;
@@ -464,21 +403,18 @@ header .header-contacts .contacts-callback button {
   text-align: center;
 }
 
-/* line 293, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-contacts h2 {
   font-size: 30px;
   text-transform: uppercase;
   margin-bottom: 60px;
 }
 
-/* line 297, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-contacts p {
   font-size: 22px;
   text-align: left;
   white-space: nowrap;
 }
 
-/* line 301, ../Documents/sites/filter-profi/sass/styles.sass */
 .section-contacts p a, .section-contacts p a:hover, .section-contacts p a:active {
   color: #ffffff;
   font-size: 22px;
@@ -487,14 +423,12 @@ header .header-contacts .contacts-callback button {
   text-decoration: none;
 }
 
-/* line 308, ../Documents/sites/filter-profi/sass/styles.sass */
 .footer {
   background-color: #000066;
   width: 100%;
   padding: 22px 0;
 }
 
-/* line 312, ../Documents/sites/filter-profi/sass/styles.sass */
 .footer .copyright {
   font-size: 20px;
   color: #fff;
@@ -502,22 +436,20 @@ header .header-contacts .contacts-callback button {
   margin: 0;
 }
 
-/* line 318, ../Documents/sites/filter-profi/sass/styles.sass */
 .scroll-up {
   position: fixed;
   width: 60px;
   height: 60px;
   color: #ffffff;
   background-color: #3366CC;
-  right: 50px;
-  bottom: 50px;
+  right: 25px;
+  bottom: 25px;
   font-size: 50px;
   overflow: hidden;
   z-index: 999;
   display: none;
 }
 
-/* line 330, ../Documents/sites/filter-profi/sass/styles.sass */
 .scroll-up a, .scroll-up a:hover, .scroll-up a:focus {
   color: #fff;
   text-decoration: none;
@@ -528,228 +460,177 @@ header .header-contacts .contacts-callback button {
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 3, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-heading-text {
     font-size: 25px;
     height: auto;
   }
-  /* line 6, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-heading-text h1 {
     font-size: 25px;
   }
-  /* line 9, ../Documents/sites/filter-profi/sass/_media.sass */
   header nav.header-navigation ul {
     font-size: 12px;
   }
-  /* line 11, ../Documents/sites/filter-profi/sass/_media.sass */
   header nav.header-navigation ul li {
     padding-left: 7px;
   }
-  /* line 15, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-contacts .contacts-phone-wrapper .phone-icon {
     width: 30px;
     height: 28px;
     font-size: 18px;
   }
-  /* line 19, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-contacts .contacts-phone-wrapper .header-phone, header .header-contacts .contacts-phone-wrapper .header-phone:hover {
     font-size: 20px;
   }
-  /* line 22, ../Documents/sites/filter-profi/sass/_media.sass */
   .main .main-wedo {
     margin-top: 140px;
     padding: 30px 50px;
   }
-  /* line 25, ../Documents/sites/filter-profi/sass/_media.sass */
   .main .main-wedo h2 {
     font-size: 28px;
   }
-  /* line 28, ../Documents/sites/filter-profi/sass/_media.sass */
   .main .main-wedo ul li {
     font-size: 22px;
   }
-  /* line 30, ../Documents/sites/filter-profi/sass/_media.sass */
   .main .main-wedo button {
     margin-top: 30px;
   }
-  /* line 32, ../Documents/sites/filter-profi/sass/_media.sass */
   .main .main-bottom {
     margin-top: 65px;
   }
-  /* line 34, ../Documents/sites/filter-profi/sass/_media.sass */
   .main .main-bottom h2 {
     font-size: 26px;
   }
-  /* line 36, ../Documents/sites/filter-profi/sass/_media.sass */
   .main .main-bottom .about-heading {
     font-size: 16px;
   }
-  /* line 38, ../Documents/sites/filter-profi/sass/_media.sass */
   .main .main-bottom .about-wrapper {
     font-size: 16px;
   }
-  /* line 40, ../Documents/sites/filter-profi/sass/_media.sass */
   .main .main-bottom .about-wrapper .about-yellow {
     font-size: 33px;
   }
-  /* line 45, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-2 .container .left-part h2 {
     margin: 106px 0 0 20px;
   }
-  /* line 49, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-2 .container .right-part .item-wrapper .item-text {
     padding: 10px 5px;
   }
 }
 
 @media screen and (max-width: 992px) {
-  /* line 54, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-heading-text {
     padding: 5px 0;
   }
-  /* line 56, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-heading-text h1 {
     font-size: 25px;
     text-align: center;
   }
-  /* line 60, ../Documents/sites/filter-profi/sass/_media.sass */
   header nav.header-navigation ul {
     font-size: 14px;
     margin-top: 10px;
   }
-  /* line 63, ../Documents/sites/filter-profi/sass/_media.sass */
   header nav.header-navigation ul li {
     padding-left: 13px;
   }
-  /* line 65, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-contacts {
     border-left: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  /* line 70, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-contacts .contacts-label {
     display: inline-block;
   }
-  /* line 72, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-contacts .contacts-phone-wrapper {
     display: inline-block;
   }
-  /* line 74, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-contacts .contacts-phone-wrapper .phone-icon {
     width: 30px;
     height: 28px;
     font-size: 18px;
   }
-  /* line 78, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-contacts .contacts-phone-wrapper .header-phone, header .header-contacts .contacts-phone-wrapper .header-phone:hover {
     font-size: 20px;
   }
-  /* line 80, ../Documents/sites/filter-profi/sass/_media.sass */
   header .header-contacts .contacts-callback {
     display: inline-block;
   }
-  /* line 83, ../Documents/sites/filter-profi/sass/_media.sass */
   .main .main-wedo {
     margin-top: 30px;
     padding: 20px;
   }
-  /* line 86, ../Documents/sites/filter-profi/sass/_media.sass */
   .main .main-wedo button {
     margin-top: 10px;
   }
-  /* line 88, ../Documents/sites/filter-profi/sass/_media.sass */
   .main .main-bottom {
     margin-top: 20px;
   }
-  /* line 93, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-2 .container .left-part h2 {
     margin: 20px 0;
     text-align: center;
   }
-  /* line 97, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-2 .container .right-part .item-wrapper {
     padding: 15px;
   }
-  /* line 99, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-brands {
     padding: 20px 10px;
   }
-  /* line 102, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-contacts h2 {
     margin-bottom: 20px;
   }
-  /* line 104, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-contacts p {
     text-align: center;
     font-size: 20px;
   }
-  /* line 107, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-contacts p a, .section-contacts p a:hover, .section-contacts p a:active {
     font-size: 20px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  /* line 111, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-2 {
     padding: 15px 10px;
   }
-  /* line 114, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-brands .brands-wrapper {
     padding: 5px;
   }
-  /* line 117, ../Documents/sites/filter-profi/sass/_media.sass */
   .footer .copyright {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 370px) {
-  /* line 121, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-brands {
     padding: 10px 5px;
   }
-  /* line 123, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-brands .brands-wrapper {
     padding: 15px;
   }
-  /* line 125, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-brands .brands-carousel {
     padding: 23px 44px;
   }
-  /* line 127, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-brands .brands-carousel .brands-item {
     width: 100%;
     height: auto;
   }
-  /* line 131, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-brands .brands-carousel .owl-theme .owl-nav {
     display: none;
   }
-  /* line 133, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-brands button {
     padding: 3px;
     width: 100%;
   }
-  /* line 137, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-aboutus .aboutus-wrapper {
     padding: 15px;
   }
-  /* line 140, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-contacts h2 {
     margin-bottom: 10px;
     font-size: 26px;
   }
-  /* line 143, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-contacts p {
     font-size: 16px;
   }
-  /* line 145, ../Documents/sites/filter-profi/sass/_media.sass */
   .section-contacts p a, .section-contacts p a:hover, .section-contacts p a:active {
     font-size: 16px;
   }
 }
-
-/*# sourceMappingURL=styles.css.map */
