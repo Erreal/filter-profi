@@ -209,7 +209,8 @@ header .header-contacts .contacts-callback button {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .main .main-bottom .about-wrapper {
@@ -258,6 +259,8 @@ header .header-contacts .contacts-callback button {
 
 .section-2 .container .right-part {
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -456,7 +459,8 @@ header .header-contacts .contacts-callback button {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 1200px) {
@@ -528,15 +532,26 @@ header .header-contacts .contacts-callback button {
   header nav.header-navigation ul {
     font-size: 14px;
     margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   header nav.header-navigation ul li {
     padding-left: 13px;
   }
   header .header-contacts {
     border-left: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   header .header-contacts .contacts-label {
     display: inline-block;
@@ -634,3 +649,4 @@ header .header-contacts .contacts-callback button {
     font-size: 16px;
   }
 }
+/*# sourceMappingURL=styles.css.map */
