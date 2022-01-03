@@ -1,4 +1,3 @@
 RewriteEngine On
-RewriteCond %{REQUEST_URI} !^/robots\.txt$
-RewriteCond %{HTTP:X-Forwarded-proto} !^https$
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+RewriteCond %{HTTP_HOST} ^www\.(.*)$
+RewriteRule ^(.*)$ http://%1/$1 [L,R=301] 

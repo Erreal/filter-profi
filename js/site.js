@@ -33,6 +33,5 @@ $(document).ready(function () {
                 $('.scroll-up').css({opacity : 0.4}).fadeIn('slow');
             }
         } else { $('.scroll-up').stop(true, false).fadeOut('fast'); }
-    });
-
+    });   
   });
