@@ -20,6 +20,27 @@ $(document).ready(function () {
       }
     });
 
+    $('.button').click(function(){
+      $('.contact-modal').show();
+      $('.name-input').focus();
+    });
+
+    $('.modal-close').click(function(){
+      $('.contact-modal').hide();
+    });
+
+    $('.contact-form').submit(function(e){
+      var userName = $('.name-input');
+      var userPhone = $('.phone-input');
+      if(!userName.val() || !userPhone.val()) {
+        alert('Все поля обязательны для заполнения');
+        console.log(userName.val());
+        console.log(userPhone.val());
+        return false;
+      }
+      e.preventDefault();
+    });
+    
     $('a[href^="#"], *[data-href^="#"]').on('click', function(e){
         e.preventDefault();
         var t = 1000;
@@ -33,5 +54,17 @@ $(document).ready(function () {
                 $('.scroll-up').css({opacity : 0.4}).fadeIn('slow');
             }
         } else { $('.scroll-up').stop(true, false).fadeOut('fast'); }
-    });   
+    });  
   });
+  
+  $(document).keyup(function(e){
+    if ($('.contact-modal').is(':visible') && e.key == 'Escape') {
+      $('.contact-modal').hide();
+    } 
+  });
+  
+  $(document).click(function (e) {
+    if ($(e.target).is('.contact-modal')) {
+      $('.contact-modal').hide();
+    }
+});

@@ -4,74 +4,76 @@ $deep-blue: #003399
 $dark-blue: #000066
 $blue: #3366CC
 $lite-blue: #6699CC
+$white: #fff
 
 .marker-yellow
    text-transform: uppercase
    color: $y-color
      
-button
+.button
     background-color: $y-color
     border: none
     color: #000000
     display: inline-block
     text-transform: uppercase
     cursor: pointer
-    &:active, &:focus
-        outline: none!important
+    &:hover
+        opacity: 0.8
+    &:active
+        opacity: 0.6
 
 body
     font-family: "Lucida Sans Unicode"
-    color:#fff
+    color: $white
 
 a
     cursor: pointer
 
 header
     background-color: $dark-blue
-    color: #ffffff
+    color: $white
     width: 100%
     .header-heading-text
         height: 120px
         margin: 0
         padding: 20px 0
-        h1
-            color: #ffffff           
+        .logo
+            color: $white         
             font-size: 30px
             font-weight: 400
             line-height: 39px
             text-transform: uppercase
-    nav.header-navigation
+    .header-navigation
         margin: 0
-        ul
+        .navigation-list
             font-size: 14px
             font-weight: 400
             text-transform: uppercase
             margin: 50px 0 0 0
             padding: 0
-            li
+            .navigation-item
                 display: inline-block
                 margin: 0
                 padding-left: 13px
                 a
-                    color: #ffffff
+                    color: $white
                     text-decoration: none
                     margin: 0
                     padding: 0
                 a:hover
                     color: #dddddd
                     text-decoration: none
-            .navigation-first-item
-                padding-left: 0px
+                &:first-child
+                    padding-left: 0px
     .header-contacts
-        border-left: #ffffff 1px solid
+        border-left: $white 1px solid
         margin: 15px 0
         text-align: right
         .contacts-label
-            p
-                margin: 0
-                padding: 0
-                font-size: 16px
-                font-weight: 400
+            margin: 0
+            padding: 0
+            font-size: 16px
+            font-weight: 400
         .contacts-phone-wrapper
             .phone-icon
                 display: inline-block
@@ -79,12 +81,12 @@ header
                 border: $y-color 1px solid
                 font-family: "Font Awesome"
                 font-size: 22px
-                color: #ffffff
+                color: $white
                 width: 37px
                 height: 34px
                 text-align: center
             .header-phone, .header-phone:hover
-                color: #ffffff
+                color: $white
                 font-size: 24px
                 text-decoration: none
         .contacts-callback
@@ -96,7 +98,7 @@ header
     background-size: cover
     background-position: center center
     background-repeat: no-repeat
-    color: #ffffff
+    color: $white
     margin: 0
     padding: 0
     .main-wedo
@@ -178,7 +180,7 @@ header
     background-size: cover
     background-position: center center
     background-repeat: no-repeat
-    color: #ffffff
+    color: $white
     margin: 0
     padding: 65px 0 85px 0
     .container
@@ -227,7 +229,7 @@ header
     p.top
         font-size: 14px
     .brands-carousel
-        background-color:#fff
+        background-color: $white
         position: relative
         padding: 23px 64px
         .brands-item
@@ -248,13 +250,13 @@ header
                     left: -35px
                     &:hover
                         color: $lite-blue
-                        background-color: #ffffff
+                        background-color: $white
                 .owl-next
                     position: absolute
                     right: -35px
                     &:hover
                         color: $lite-blue
-                        background-color: #ffffff
+                        background-color: $white
     p.middle
         font-size: 24px
         line-height: 39px
@@ -299,7 +301,7 @@ header
         text-align: left
         white-space: nowrap
         a, a:hover, a:active
-            color: #ffffff 
+            color: $white 
             font-size: 22px
             text-align: left
             white-space: nowrap
@@ -311,7 +313,7 @@ header
     padding: 22px 0
     .copyright
         font-size: 20px
-        color:#fff
+        color: $white
         text-align: center
         margin: 0
 
@@ -319,7 +321,7 @@ header
     position: fixed
     width: 60px
     height: 60px
-    color: #ffffff
+    color: $white
     background-color: $blue
     right: 25px
     bottom: 25px
@@ -328,11 +330,27 @@ header
     z-index: 999
     display: none
     a, a:hover, a:focus
-        color:#fff
+        color: $white
         text-decoration: none
         position: absolute
         top: 50%
         left: 50%
         transform: translate(-50%, -50%)
+@import _modal.sass
 @import _media.sass
 
+.visually-hidden 
+  position: absolute
+  clip: rect(0 0 0 0)
+  width: 1px
+  height: 1px
+  margin: -1px
+  border: 0
+  padding: 0
+  white-space: nowrap
+  clip-path: inset(100%)
+  clip: rect(0 0 0 0)
+  overflow: hidden
+
+.hidden
+    display: none

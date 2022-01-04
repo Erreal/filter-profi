@@ -11,7 +11,7 @@
   color: #ffcc00;
 }
 
-button {
+.button {
   background-color: #ffcc00;
   border: none;
   color: #000000;
@@ -20,8 +20,12 @@ button {
   cursor: pointer;
 }
 
-button:active, button:focus {
-  outline: none !important;
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  opacity: 0.6;
 }
 
 body {
@@ -35,7 +39,7 @@ a {
 
 header {
   background-color: #000066;
-  color: #ffffff;
+  color: #fff;
   width: 100%;
 }
 
@@ -45,19 +49,19 @@ header .header-heading-text {
   padding: 20px 0;
 }
 
-header .header-heading-text h1 {
-  color: #ffffff;
+header .header-heading-text .logo {
+  color: #fff;
   font-size: 30px;
   font-weight: 400;
   line-height: 39px;
   text-transform: uppercase;
 }
 
-header nav.header-navigation {
+header .header-navigation {
   margin: 0;
 }
 
-header nav.header-navigation ul {
+header .header-navigation .navigation-list {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -65,35 +69,35 @@ header nav.header-navigation ul {
   padding: 0;
 }
 
-header nav.header-navigation ul li {
+header .header-navigation .navigation-list .navigation-item {
   display: inline-block;
   margin: 0;
   padding-left: 13px;
 }
 
-header nav.header-navigation ul li a {
-  color: #ffffff;
+header .header-navigation .navigation-list .navigation-item a {
+  color: #fff;
   text-decoration: none;
   margin: 0;
   padding: 0;
 }
 
-header nav.header-navigation ul li a:hover {
+header .header-navigation .navigation-list .navigation-item a:hover {
   color: #dddddd;
   text-decoration: none;
 }
 
-header nav.header-navigation ul .navigation-first-item {
+header .header-navigation .navigation-list .navigation-item:first-child {
   padding-left: 0px;
 }
 
 header .header-contacts {
-  border-left: #ffffff 1px solid;
+  border-left: #fff 1px solid;
   margin: 15px 0;
   text-align: right;
 }
 
-header .header-contacts .contacts-label p {
+header .header-contacts .contacts-label {
   margin: 0;
   padding: 0;
   font-size: 16px;
@@ -106,14 +110,14 @@ header .header-contacts .contacts-phone-wrapper .phone-icon {
   border: #ffcc00 1px solid;
   font-family: "Font Awesome";
   font-size: 22px;
-  color: #ffffff;
+  color: #fff;
   width: 37px;
   height: 34px;
   text-align: center;
 }
 
 header .header-contacts .contacts-phone-wrapper .header-phone, header .header-contacts .contacts-phone-wrapper .header-phone:hover {
-  color: #ffffff;
+  color: #fff;
   font-size: 24px;
   text-decoration: none;
 }
@@ -127,7 +131,7 @@ header .header-contacts .contacts-callback button {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  color: #ffffff;
+  color: #fff;
   margin: 0;
   padding: 0;
 }
@@ -236,7 +240,7 @@ header .header-contacts .contacts-callback button {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  color: #ffffff;
+  color: #fff;
   margin: 0;
   padding: 65px 0 85px 0;
 }
@@ -342,7 +346,7 @@ header .header-contacts .contacts-callback button {
 
 .section-brands .brands-carousel .owl-theme .owl-nav .owl-prev:hover {
   color: #6699CC;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .section-brands .brands-carousel .owl-theme .owl-nav .owl-next {
@@ -352,7 +356,7 @@ header .header-contacts .contacts-callback button {
 
 .section-brands .brands-carousel .owl-theme .owl-nav .owl-next:hover {
   color: #6699CC;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .section-brands p.middle {
@@ -419,7 +423,7 @@ header .header-contacts .contacts-callback button {
 }
 
 .section-contacts p a, .section-contacts p a:hover, .section-contacts p a:active {
-  color: #ffffff;
+  color: #fff;
   font-size: 22px;
   text-align: left;
   white-space: nowrap;
@@ -443,7 +447,7 @@ header .header-contacts .contacts-callback button {
   position: fixed;
   width: 60px;
   height: 60px;
-  color: #ffffff;
+  color: #fff;
   background-color: #3366CC;
   right: 25px;
   bottom: 25px;
@@ -461,6 +465,77 @@ header .header-contacts .contacts-callback button {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.contact-modal {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: #000;
+}
+
+.contact-modal .contact-wrapper {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  position: fixed;
+  top: 30%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 30px;
+}
+
+.contact-modal .contact-wrapper .modal-close {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.contact-modal .contact-wrapper .modal-close::before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  background-color: #000;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  left: 0;
+}
+
+.contact-modal .contact-wrapper .modal-close::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  background-color: #000;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  left: 0;
+}
+
+.contact-modal .contact-wrapper .modal-close:hover::before, .contact-modal .contact-wrapper .modal-close:hover::after {
+  opacity: 0.8;
+}
+
+.contact-modal .contact-wrapper .modal-close:active::before, .contact-modal .contact-wrapper .modal-close:active::after {
+  opacity: 0.6;
+}
+
+.contact-modal .contact-wrapper .contact-form {
+  display: -ms-grid;
+  display: grid;
+  gap: 20px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -648,5 +723,24 @@ header .header-contacts .contacts-callback button {
   .section-contacts p a, .section-contacts p a:hover, .section-contacts p a:active {
     font-size: 16px;
   }
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.hidden {
+  display: none;
 }
 /*# sourceMappingURL=styles.css.map */
