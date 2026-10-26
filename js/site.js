@@ -30,6 +30,7 @@ $(document).ready(function () {
     });
 
     $('.contact-form').submit(function(e){
+      e.preventDefault();
       var userName = $('.name-input');
       var userPhone = $('.phone-input');
       if(!userName.val() || !userPhone.val()) {
@@ -38,7 +39,7 @@ $(document).ready(function () {
         console.log(userPhone.val());
         return false;
       }
-      e.preventDefault();
+      alert('Демонстрационная форма: отправка данных отключена.');
     });
     
     $('a[href^="#"], *[data-href^="#"]').on('click', function(e){
